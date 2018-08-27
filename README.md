@@ -8,6 +8,7 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * O que são __arrays__.
   * O que são __funções__.
   * __Operadores e comparadores__.
+  * Desafio Semana.
 
 #### [Aula 02](02.md)
   * Operadores: __and__ (&&), __or__ (||), __not__ (!), __unário__ (+), __inversor de sinal__ (-).
@@ -16,21 +17,25 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * Valores __Literais__.
   * __Identificadores__.
   * __Condicionais__.
+  * Desafio Semana.
 
 #### [Aula 03](03.md)
   * __Tipos primitivos__.
   * Mais sobre __objetos__.
   * __Métodos__.
+  * Desafio Semana.
 
 #### [Aula 04](.md)
   * __Falsy e Truthy__.
   * Testes usando __if__ ou __!!__.
   * __Condicional Ternário__.
   * __Escopos de variáveis__.
+  * Desafio Semana.
 
 #### [Aula 05](05.md)
   * __Retorno de funções__ além dos primitivos.
   * __Parâmetros de funções__ além dos primitivos.
+  * Desafio Semana.
 
 #### [Aula 06](06.md)
   * __Operador vírgula__.
@@ -42,6 +47,7 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * __Length__.
   * __Push__.
   * __For__.
+  * Desafio Semana.
 
 #### [Aula 08](08.md)
   * __Nomeando__ funções.
@@ -52,15 +58,18 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * __Closures__.
   * __Hoisting__.
   * __IIFE__.
+  * Desafio Semana.
 
 #### [Aula 10](10.md)
   * __Wrapper Objects__.
   * __Typeof__, testando tipos de valores.
+  * Desafio Semana.
 
 #### [Aula 11](11.md)
   * __Do/while__.
   * __For/in__.
   * __Saltos__.
+  * Desafio Semana.
 
 #### [Aula 12](12.md)
   * Mais sobre __objetos__.
@@ -68,30 +77,37 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * __Herança__.
   * __Funcionalidades__ para objetos.
   * Mais sobre __arrays__.
+  * Desafio Semana.
 
 #### [Aula 13](13.md)
   * __Métodos de arrays__.
+  * Desafio Semana.
 
 #### [Aula 14](14.md)
   * Mais __métodos de arrays__.
-
+  * Desafio Semana.
 #### [Aula 15](15.md)
   * Javascript no __browser__.
   * __This__.
   * __Arguments__.
+  * Desafio Semana.
 
 #### [Aula 16](16.md)
   * __Use strict__.
   * __Objeto String__.
+  * Desafio Semana.
 
 #### [Aula 17](17.md)
   * __Expressões regulares 1__.
+  * Desafio Semana.
 
 #### [Aula 18](18.md)
  * __Expressões regulares 2__.
+  * Desafio Semana.
 
 #### [Aula 19](19.md)
  * __Expressões regulares 3__.
+  * Desafio Semana.
 
 #### [Aula 20](20.md)
  * Parâmetros para __IIFE__.
@@ -100,20 +116,25 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
  * __Document__.
  * __Manipulação de elementos__ (formulários).
  * Introdução a __eventos__.
+  * Desafio Semana.
 
 #### [Aula 21](21.md)
   * __Síncrono e assíncrono__.
+  * Desafio Semana.
 
 #### [Aula 22](22.md)
   * __Propriedades e métodos__ de funções.
   * __Prototype__.
   * __Array-like__.
+  * Desafio Semana.
 
 #### Aula 23 - *Sem Anotações*
   * __Debug__.
+  * Desafio Semana.
 
 #### Aula 24 - *Sem Anotações*
   * __Modularização__.
+  * Desafio Semana.
 
 #### Aula 25 - [HTML](aula25.html)/[JS](aula25.md)
   * __Eventos Inline__.
@@ -121,6 +142,7 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * __EventListener__.
   * Parâmetro __useCapture__.
   * Eventos de __formulário__.
+  * Desafio Semana.
 
 #### Aula 26 - (aula26.md)
   * Api DOM
@@ -128,16 +150,20 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * Proriedades que trazem quebra de linha e comentários.
   * Propriedade que só trazem os nós que são elementos DOM.
   * Métodos DOM.
+  * Desafio Semana.
 
 #### Aula 27 - (aula27.md)
   * EVENTOS
   * __Técinas ninjas__
+  * Desafio Semana.
 
 #### Aula 28 - (aula28.md)
   * AJAX
   * Como fazer requisições
   * Manipulando respostas
   * HTTP status
+  * Desafio Semana.
 
 #### Aula 30 - (aula30.md)
   * Clousure
+  * Desafio Semana.
