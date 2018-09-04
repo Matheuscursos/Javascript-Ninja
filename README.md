@@ -35,7 +35,7 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
 #### [Aula 05](05.md)
   * __Retorno de funções__ além dos primitivos.
   * __Parâmetros de funções__ além dos primitivos.
-  * Desafio Semana.
+  *  [Desafio Semana.](challenge-05.js)
 
 #### [Aula 06](06.md)
   * __Operador vírgula__.
