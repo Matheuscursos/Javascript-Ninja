@@ -41,17 +41,19 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * __Operador vírgula__.
   * __Switch__.
   * __While__.
+  * [Desafio Semana.](challenge-06.js)
 
 #### [Aula 07](07.md)
   * __Operador Módulo__.
   * __Length__.
   * __Push__.
   * __For__.
-  * Desafio Semana.
+  * [Desafio Semana.](challenge-07.js)
 
 #### [Aula 08](08.md)
   * __Nomeando__ funções.
   * __Programação funcional__.
+  * [Desafio Semana.](challenge-08.js)
 
 #### [Aula 09](09.md)
   * __Escopo__ de funções.
