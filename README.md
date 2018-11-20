@@ -65,13 +65,13 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
 #### [Aula 10](10.md)
   * __Wrapper Objects__.
   * __Typeof__, testando tipos de valores.
-  * Desafio Semana.
+  * [Desafio Semana.](challenge-10.js)
 
 #### [Aula 11](11.md)
   * __Do/while__.
   * __For/in__.
   * __Saltos__.
-  * Desafio Semana.
+  * [Desafio Semana.](challenge-11.js)
 
 #### [Aula 12](12.md)
   * Mais sobre __objetos__.
