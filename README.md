@@ -79,37 +79,38 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * __Herança__.
   * __Funcionalidades__ para objetos.
   * Mais sobre __arrays__.
-  * Desafio Semana.
+  * [Desafio Semana.](challenge-12.js)
 
 #### [Aula 13](13.md)
   * __Métodos de arrays__.
-  * Desafio Semana.
+  * [Desafio Semana.](challenge-13.js)
 
 #### [Aula 14](14.md)
   * Mais __métodos de arrays__.
-  * Desafio Semana.
+  * [Desafio Semana.](challenge-14.js)
+
 #### [Aula 15](15.md)
   * Javascript no __browser__.
   * __This__.
   * __Arguments__.
-  * Desafio Semana.
+  * [Desafio Semana.](challenge-15.js)
 
 #### [Aula 16](16.md)
   * __Use strict__.
   * __Objeto String__.
-  * Desafio Semana.
+  * [Desafio Semana.](challenge-16.js)
 
 #### [Aula 17](17.md)
   * __Expressões regulares 1__.
-  * Desafio Semana.
+  * [Desafio Semana.](challenge-17.js)
 
 #### [Aula 18](18.md)
  * __Expressões regulares 2__.
-  * Desafio Semana.
+ * [Desafio Semana.](challenge-18.js)
 
 #### [Aula 19](19.md)
  * __Expressões regulares 3__.
-  * Desafio Semana.
+ * [Desafio Semana.](challenge-19.js)
 
 #### [Aula 20](20.md)
  * Parâmetros para __IIFE__.
@@ -118,11 +119,11 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
  * __Document__.
  * __Manipulação de elementos__ (formulários).
  * Introdução a __eventos__.
-  * Desafio Semana.
+ * [Desafio Semana.](challenge-20.js)
 
 #### [Aula 21](21.md)
   * __Síncrono e assíncrono__.
-  * Desafio Semana.
+  * [Desafio Semana.](challenge-21.js)
 
 #### [Aula 22](22.md)
   * __Propriedades e métodos__ de funções.
