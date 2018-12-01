@@ -48,7 +48,7 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * __Length__.
   * __Push__.
   * __For__.
-  * [Desafio Semana.](challenge-07.js)
+  * [Desafio Semana.](files/challenge-07.js)
 
 #### [Aula 08](08.md)
   * __Nomeando__ funções.
