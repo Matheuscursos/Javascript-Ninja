@@ -9,7 +9,7 @@ Crie uma função que receba um array como parâmetro, e retorne esse array.
 */
 function myFunction(arr){
   return arr;
-}
+}y
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
