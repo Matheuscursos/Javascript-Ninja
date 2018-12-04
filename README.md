@@ -2,7 +2,7 @@
 Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript-ninja/), ministrado por [Fernando Daciuk](https://github.com/fdaciuk).
 
 ## Aulas
-#### [Aula 01](Notes-JSninja/FIles/01.md)
+#### [Aula 01](https://github.com/Matheuscursos/Notes-JSninja/blob/master/FIles/01.md)
   * Tipos de __valores__.
   * O que são __Objetos__.
   * O que são __arrays__.
