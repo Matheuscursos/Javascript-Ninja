@@ -98,7 +98,7 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
 #### [Aula 16](Files/16.md)
   * __Use strict__.
   * __Objeto String__.
-  * [Desafio Semana.](Files/challenge-16.js)
+  * [Desafio Semana.](Files/challenge-16s/challenge-16.js)
 
 #### [Aula 17](Files/17.md)
   * __Expressões regulares 1__.
