@@ -93,7 +93,7 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * Javascript no __browser__.
   * __This__.
   * __Arguments__.
-  * [Desafio Semana.](Files/challenge-15.js)
+  * [Desafio Semana.](Files/challenge-15/challenge-15.js)
 
 #### [Aula 16](Files/16.md)
   * __Use strict__.
