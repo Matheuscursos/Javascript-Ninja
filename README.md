@@ -153,7 +153,7 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * Proriedades que trazem quebra de linha e comentários.
   * Propriedade que só trazem os nós que são elementos DOM.
   * Métodos DOM.
-  * Desafio Semana.
+  * Desafio Semana.  
 
 #### Aula 27 - (aula27.md)
   * EVENTOS

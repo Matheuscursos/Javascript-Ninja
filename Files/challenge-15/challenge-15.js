@@ -37,8 +37,8 @@ function Person(name,lastName,age){
         this.age+= arguments[0];
         return this;
       };
-    }
-};
+    };
+
 
 /*
 Crie 3 novos objetos usando o construtor acima. Os objetos serão novas
@@ -46,7 +46,7 @@ pessoas. As variáveis deverão ser o primeiro nome da pessoa. Passe os
 parâmetros corretamente para o construtor para criar as novas pessoas.
 Mostre as 3 novas pessoas criadas no console (Um console.log por pessoa).
 */
-console.log( 'Novas pessoas à partir de Person:' );
+
 
 
 var matheus = new Person('matheus','silva',20);
@@ -59,14 +59,19 @@ console.log(mariana);
 Mostre no console o nome completo de cada pessoa.
 */
 console.log( '\nNomes das pessoas:' );
-// ?
+console.log(matheus.getFullName());
+console.log(marcia.getFullName());
+console.log(mariana.getFullName());
 
 /*
 Mostre no console as idades de cada pessoa, com a frase:
 - "[NOME COMPLETO] tem [IDADE] anos."
 */
 console.log( '\nIdade das pessoas:' );
-// ?
+console.log(matheus.getFullName() + ' tem ' + matheus.getAge() + ' anos.');
+console.log(marcia.getFullName() + ' tem ' + marcia.getAge() + ' anos');
+console.log(mariana.getFullName() +  ' tem ' + mariana.getAge() + ' anos');
+
 
 /*
 Adicione alguns anos à cada pessoa, e mostre no console a nova idade de
@@ -74,6 +79,14 @@ cada um. A frase deverá ser no formato:
 - "[NOME COMPLETO] agora tem [NOVA IDADE] anos."
 */
 console.log( '\nNova idade das pessoas:' );
-// ?
+
+matheus.addAge(5);
+marcia.addAge(2);
+mariana.addAge(1);
+
+console.log(matheus.getFullName() + ' agora tem ' + matheus.getAge() + " anos.")
+console.log(marcia.getFullName() + ' agora tem ' + marcia.getAge() + " anos.")
+console.log(mariana.getFullName() + ' agora tem ' + mariana.getAge() + " anos.")
+
 
 })();
