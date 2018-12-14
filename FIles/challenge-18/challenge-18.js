@@ -1,9 +1,10 @@
-/*
+(function(){
+  'use strict'
+  /*
 1. Envolva todo o conteúdo desse desafio em uma IIFE.
 2. Adicione a diretiva 'use strict';
 3. Crie um arquivo index.html e adicione esse script à ele.
 */
-
 /*
 Crie uma função chamada `cleanCPF`, que receba um CPF por parâmetro, e
 retorne esse CPF limpo (somente os números).
@@ -15,7 +16,12 @@ eles! Use um console.log para cada CPF.
 - "101.123-131x32"
 */
 console.log( 'Limpando CPFs:' );
-// ?
+function cleanCPF(cpf){
+
+    return cpf.replace(/\d{3}/);
+
+}
+
 
 /*
 Usando os CPFs limpos acima, deixe-os com a formatação correta de CPF.
@@ -87,3 +93,6 @@ corretas, para depois aplicar no código ;)
 */
 console.log( '\nFazer replace dos textos das tags:' );
 // ?
+
+
+})();
