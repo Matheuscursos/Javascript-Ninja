@@ -92,13 +92,16 @@ $button.addEventListener('click',function(event){
   event.preventDefault();
     if(!$inputUsername.value)
       return alert("Preencha o nome do usuário!");
+
     if(!$inputEmail.value)
       return alert("Preencha o email!");
-    if(!$message)
-      return("Preencha a mensagem!");
+
     if(!isValidEmail($inputEmail.value))
       return alert('Entre com um email válido!');
-    if(confirm('Tem certeza que deseja enviar o formulario ?'))
+
+    if(!$message.value)
+      return alert("Preencha a mensagem!");
+    if(!confirm('Tem certeza que deseja enviar o formulario ?'))
       return alert ("nao enviado!");
     return alert ("Enviado com sucesso");
 },false)
@@ -129,7 +132,9 @@ Alguns e-mails inválidos:
     - "rita-marica@titica.a.b"
     - "agua_@evida.br.com"
 */
-// ?
+function isValidEmail(email){
+  return /^[\w+.]+@\w+\.\w{2,}(\.\w{2})?$/.test(email);
+}
 
 
 
