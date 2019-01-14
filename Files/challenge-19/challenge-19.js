@@ -96,3 +96,4 @@ var classes = ['container', 'text', 'date', 'excerpt','main'];
         console.log( hasClass(markup, cssClass) + ' para a classe ' + cssClass);
     });
 })();
+git 
