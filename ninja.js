@@ -1,18 +1,13 @@
-(function(win,doc) {
+(function() {
     'use strict'
-    var $inputUsername = doc.querySelector('#username');
-    var $inputPassword = doc.querySelector('#password');
 
-    var $button = doc.querySelector('button');
-    button.addEventListener('click',function(event){
-     $inputUsername.value = "";
-     $inputPassword.value = "";
-        event.preventDefault();
-        console.log('Click no botao');
-    }, false);
-
-    $inputUsername.addEventListener('click',function(){
-        alert('Serio');
-    },false);
-
-})(window,document);
+    function myFuntion(name,lastName){
+        this.fullName = name + ' ' + lastName;
+        this.lastName = lastName;
+    }
+    myFuntion.prototype.fullName = function(){
+      return this.name + ' ' + this.lastName;
+    }
+    var matheus = new myFuntion('matheus','silva');
+    console.log(fernando.fullName);
+})();
