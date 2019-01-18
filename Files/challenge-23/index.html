@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Challenge 23</title>
+	<script src="challenge-23.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+	body,html{
+        margin:0;
+        height: 0;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container__calculadora{
+      background: red;
+      width: 300px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+
+    }
+    .container__calculadora__buttons{
+      width: 100%;
+      height: 50%;
+    }
+  input{
+    margin: 10px;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    text-align: center;
+    font-size: 40px;
+  }
+  .container__calculadora__buttons__numbers{
+    padding: 10px;
+    background: blue;
+    height: 100%;
+    width: 100%;
+  }
+  button{
+    border: 0;
+    background: green;
+    width: 70px;
+    height: 70px;
+  }
+</style>
+
+<body>
+	<section class="container">
+		<section class="container__calculadora">
+			<input type="text" name="" value="0" readonly>
+			<section class="container__calculadora__buttons">
+
+
+				<section class="container__calculadora__buttons__numbers">
+          <button type="button" name="1">AC</button>
+					<button type="button" name="1">1</button>
+					<button type="button" name="2">2</button>
+					<button type="button" name="3">3</button>
+					<button type="button" name="soma">+</button>
+
+					<button type="button" name="4">4</button>
+					<button type="button" name="5">5</button>
+					<button type="button" name="6">6</button>
+					<button type="button" name="subtração">-</button>
+
+					<button type="button" name="7">7</button>
+					<button type="button" name="8">8</button>
+					<button type="button" name="9">9</button>
+					<button type="button" name="multiplicação">*</button>
+
+					<button type="button" name="0">0</button>
+
+        	<button type="button" name="0">.</button>
+					<button type="button" name="igual">=</button>
+
+					<button type="button" name="divisão">/</button>
+				</section>
+
+
+
+			</section>
+		</section>
+	</section>
+</body>
+
+</html>
