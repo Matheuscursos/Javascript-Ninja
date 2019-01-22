@@ -1,6 +1,5 @@
 (function(win, doc) {
 	'use strict';
-
 	/*
 	Vamos desenvolver mais um projeto. A ideia é fazer uma mini-calculadora.
 	As regras são:
@@ -24,28 +23,26 @@
 	input;
 	- Ao pressionar o botão "CE", o input deve ficar zerado.
 	*/
-
 	var $tela = doc.querySelector('[data-js="tela"]');
 	var $numbers = doc.querySelectorAll('[data-js="button-number"]');
 	var $ce = doc.querySelector('[data-js="button-ce"]');
 	var $operation = doc.querySelectorAll('[data-js="button-operation"]');
 	var $equal = doc.querySelector('[data-js="button-equal"]')
 
+	function initialize() {
+		initEvents();
+	}
 
-
-
-
-	Array.prototype.forEach.call($numbers, function(button) {
-		button.addEventListener('click', ClickNumber, false);
-
-
-	});
-	Array.prototype.forEach.call($operation, function(button) {
-		button.addEventListener('click', ClickOperation, false);
-	});
-
-	$ce.addEventListener('click', limpaTela, false);
-	$equal.addEventListener('click', resultado, false);
+	function initEvents() {
+		Array.prototype.forEach.call($numbers, function(button) {
+			button.addEventListener('click', ClickNumber, false);
+		});
+		Array.prototype.forEach.call($operation, function(button) {
+			button.addEventListener('click', ClickOperation, false);
+		});
+		$ce.addEventListener('click', limpaTela, false);
+		$equal.addEventListener('click', resultado, false);
+	}
 
 	function ClickOperation() {
 		$tela.value = removeLastItem($tela.value);
@@ -53,22 +50,20 @@
 	}
 
 	function isLastItemAnOpretation(number) {
-		var operation = ['+', '-', '*', '÷'];
+		var operation = getOperation();
 		var lastItem = number.split('').pop();
 		return operation.some(function(operator) {
 			return operator === lastItem;
 		});
 	}
 
-	function removeLastItem(number) {
-		if (isLastItemAnOpretation(number)) {
-			return number.slice(0, -1);
-		}
-		return number;
+	function removeLastItem(string) {
+		if (isLastItemAnOpretation(string))
+			return string.slice(0, -1);
+		return string;
 	}
 
 	function ClickNumber() {
-
 		$tela.value += this.value;
 	}
 
@@ -78,27 +73,45 @@
 
 	function resultado() {
 		$tela.value = removeLastItem($tela.value);
-		var allValues = $tela.value.match(/\d+[+*÷-]?/g);
-		$tela.value = allValues.reduce(function(acumulado, atual) {
-			var firstValue = acumulado.slice(0, -1);
-			var operador = acumulado.split('').pop();
-			var lastValue = removeLastItem(atual);
-			var lastOperator = isLastItemAnOpretation(atual) ? atual.split('').pop(): '';
-			switch (operador) {
-				case '+':
-					return ( Number(firstValue) +  Number(lastValue)  ) + lastOperator;
-				case '-':
-					return  ( Number(firstValue) -  Number(lastValue) ) + lastOperator;
-				case '*':
-					return  ( Number(firstValue) *  Number(lastValue) ) + lastOperator;
-				case '÷':
-					return  ( Number(firstValue) /  Number(lastValue) ) + lastOperator;
-			}
-		});
-
-
+		var allValues = $tela.value.match(getRegexOperation());
+		$tela.value = allValues.reduce(calculateAllValues);
 	}
 
+	function getOperation() {
+		return Array.prototype.map.call($operation, function(button) {
+			return button.value;
+		});
+	}
 
+	function getRegexOperation() {
+		return new RegExp('\\d+[' + getOperation().join('') + ']?', 'g');
+	}
+
+	function calculateAllValues(acumulado, atual) {
+		var firstValue = acumulado.slice(0, -1);
+		var operador = acumulado.split('').pop();
+		var lastValue = removeLastItem(atual);
+		var lastOperator = getLastOperator(atual)
+		return doOperation(operador, firstValue, lastValue) + lastOperator;
+	}
+
+	function getLastOperator(value) {
+		return isLastItemAnOpretation(value) ? value.split('').pop() : '';
+	}
+
+	function doOperation(operador, firstValue, lastValue) {
+		switch (operador) {
+			case '+':
+				return Number(firstValue) + Number(lastValue);
+			case '-':
+				return Number(firstValue) - Number(lastValue);
+			case '*':
+				return Number(firstValue) * Number(lastValue);
+			case '÷':
+				return Number(firstValue) / Number(lastValue);
+		}
+	}
+
+	initialize();
 
 })(window, document);
