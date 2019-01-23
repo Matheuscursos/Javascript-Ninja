@@ -1,10 +1,24 @@
 (function() {
-    'use strict'
+	'use strict'
 
-    function sum(){
-      return Array.prototype.reduce.call(arguments,function(accumulated,item){
-        return accumulated + item;
-      });
-    }
-    console.log(sum(1,21,32,4));
+	function events(element, event, callback) {
+		document.querySelector(element)
+			.addEventListener(event, callback, false);
+	}
+
+	events('[data-js="link"]','click', function(event) {
+		event.preventDefault();
+		alert('clicou no link');
+	});
+
+	events('[data-js="div"]', 'click', function(event) {
+		event.preventDefault();
+		alert('clicou na div');
+	});
+
+	events('[data-js="span"]', 'click', function(event){
+		event.preventDefault();
+		alert('clicou no SPAN');
+	})
+
 })();

@@ -137,7 +137,7 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
 
 #### Aula 24 - *Sem Anotações*
   * __Modularização__.
-  * Desafio Semana.
+  * Desafio Semana.(Files/challenge-24)
 
 #### Aula 25 - [HTML](aula25.html)/[JS](aula25.md)
   * __Eventos Inline__.
