@@ -139,12 +139,7 @@ Anotações do curso [Javascript Ninja](http://blog.da2k.com.br/curso-javascript
   * __Modularização__.
   * Desafio Semana.(Files/challenge-24)
 
-#### Aula 25 - [HTML](aula25.html)/[JS](aula25.md)
-  * __Eventos Inline__.
-  * Eventos __chamados no javascript__.
-  * __EventListener__.
-  * Parâmetro __useCapture__.
-  * Eventos de __formulário__.
+#### Aula 25 - *Sem Anotações*
   * Desafio Semana.
 
 #### Aula 26 - (aula26.md)
